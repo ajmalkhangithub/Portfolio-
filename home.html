@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(39, 39, 117);
+            color: white;
+        }
+        h1{
+            color: black;
+            font-size: 30px;
+            text-align: center;
+        }
+        form{
+            /* display: flex; */
+            margin: 0 50%;
+            /* border: 5px solid green; */
+            
+        }
+        label{
+            font-size: 20px;
+            font-weight: 800;
+        }
+        input{
+            padding: 7px;
+            border: 1px snow red;
+            
+        }
+        .forum{
+            background-color: green;
+            width: 40%;
+            margin: auto;
+            height: 100%;
+            padding: 60px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .forum2{
+            /* margin: 0px 50%; */
+            margin-left: -100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hi please fill the form</h1>
+    <div  class="forum">
+
+        <form action="">
+            <div class="forum2">
+
+                <label for="">Name</label>
+                <input type="text" placeholder="Enter your name"><br><br>
+                <label for="" >Email</label>
+                <input type="text" placeholder="Enter your email"><br><br>
+                <label for="">Contact</label>
+                <input type="number" placeholder="Enetr your contact number"><br><br>
+                <label for="">Address</label>
+                <input type="text" placeholder="Enter your Contact">
+            </div>
+            <button id="demo" onclick="myfunction()" style="margin-top: 20px;margin-left: -10px;padding: 7px;background-color: red;color: blue;border-radius: 2px;border: none;"  >Login</button>
+            </form>
+            
+    </div>
+    <!-- <button id="demoo"></button> -->
+    <!-- <div id="demo" style="width: 100px; height: 100px; border: 1px solid black;">
+        Sample Text
+    </div> -->
+    <button onclick="myfunction()">Change Color</button>
+    <button onclick="myfunctio()">Change Coolor</button>
+
+    <script>
+       var arr = ['red', 'green', 'blue', 'yellow'];
+
+function myfunction() {
+    let i = 0;
+
+    function changeColor() {
+        if (i < arr.length) {
+            document.getElementById('demo').style.background = arr[i];
+            i++;
+            setTimeout(changeColor, 1000); // Change color every second
+        }
+    }
+    var arrr = ['red', 'green', 'blue', 'yellow'];
+
+function myfunctio() {
+    let i = 0;
+
+    function changeColr() {
+        if (i < arr.length) {
+            document.body.style.background = arrr[i];
+            i++;
+            setTimeout(changeColor, 1000); // Change color every second
+        }
+    }
+
+    changeColr(); // Start the color change process
+}
+
+    changeColor(); // Start the color change process
+}
+        // document.getElementById('demoo').style.background='arr'
+    </script>
+
+    </body>
+</html>

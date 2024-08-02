@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajmal -  Developer portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(0, 0, 33);
+            color: white;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+            /* position: fixed; */
+        }
+        .navbar{
+            position: fixed;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0px 23px;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            margin: 100px 0px;
+        }
+        .firstsection > div{
+            width: 30%;
+        }
+        .leftsection{
+       font-size: 3rem;
+       margin: 23px 0;
+        }
+        nav ul a {
+            text-decoration: none;
+            color: white;
+        }
+        nav ul a:hover{
+            color: rgb(154, 126, 161);
+            font-size: 1.02rem;
+        }
+        main hr{
+            border: 0;
+            background-color: #9c9cf1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+        .rightsection img{
+            width: 80%;
+            
+        }
+        .purple{
+            color: blueviolet;
+        }
+        .text-gray{
+            color: gray;
+        }
+        #element{
+            color:  blueviolet;
+        }
+        .secondsection{
+            width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .secondsection h1{
+            font-size: 1.9rem;
+        }
+        .secondsection .box{
+            background-color: white;
+            width: 87vw;
+            height: 2px;
+            margin: 56px 0px;
+            display: flex;
+        }
+        .secondsection .vertical{
+            background-color: white;
+            width: 1px;
+            height: 98px;
+            margin: 0px 130px;
+        }
+        .image-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9;
+
+        }
+        .vertical-title{
+           position: relative;
+           top: 85px;
+           width: 150px;
+        }
+        .vertical-desc{
+           position: relative;
+           top: 9px;
+           color: gray;
+           font-size: 9px;
+        }
+        .leftsection .btn{
+            background-color: #842eaf94;
+    color: white;
+    border: 2px solid white;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 6px;
+        }
+        footer{
+            background-color: purple;
+            /* width: 90%; */
+            height: 233px;
+        }
+        .footer{
+            display: flex;
+            padding:  23px 122px;
+            justify-content: space-evenly;
+        }
+       .footer ul{
+            /* display: flex; */
+            /* justify-content: space-between; */
+            /* margin: 0px 10px; */
+        }
+       .footer ul li{
+            list-style: none;
+            margin: 0px 10px;
+            
+        }
+        .footer > div{
+            width: 223px;
+        }
+        footer .footer-right{
+            color: gray;
+            text-align: center;
+            padding: 12px 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Ajmal Portfolio</div>
+            <div class="right">
+                <ul>
+                   <a href="home.html
+                   "><li>Home</li></a> 
+                    <a href="/"><li>About</li></a>
+                    <a href="/"><li>Services</li></a> 
+                   <a href="/"> <li>Contact Me</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi,My name is <span class="purple">Ajmal Khan</span> 
+                <div>and I am a </div>
+                <span id="element"></span>
+            <div class="button">
+                 <button class="btn">Download Resume</button>
+                <button class="btn" id="demo" onclick="myfunction()">Visit Github</button></div>    
+            </div>
+            
+           
+            <div class="rightsection">
+                <img src="./images (1).jpg" alt="">
+            </div>
+
+        </section>
+        <hr>
+        
+        <section class="secondsection">
+            <span class="text-gray">What i have done so far,</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="./facebook.avif" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2010-2020)
+                        <div class="vertical-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id a porro vero fuga dicta eveniet quo laudantium odio doloremque. Commodi molestias recusandae eius?
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./github.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2010-2020)
+                        <div class="vertical-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id a porro vero fuga dicta eveniet quo laudantium odio doloremque. Commodi molestias recusandae eius?
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./facebook.avif" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2010-2020)
+                        <div class="vertical-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id a porro vero fuga dicta eveniet quo laudantium odio doloremque. Commodi molestias recusandae eius?
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./github.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2010-2020)
+                        <div class="vertical-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id a porro vero fuga dicta eveniet quo laudantium odio doloremque. Commodi molestias recusandae eius?
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                Ajmal Developer Portfolio
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home <a href="home.html" onclick="home.html"></a></li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-right">
+            www.ajmalkhanportfolio.com | All rights reserved 
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Graphic Designer','Web Designer'],
+          typeSpeed: 70,
+        });
+
+
+        function myfunction(){
+              document.getElementById('demo').style.color='red'
+              document.getElementById('demo').style.background='yellow'
+              document.getElementById('demo').style.border='3px solid green'
+        }
+      </script>
+</body>
+</html>
